@@ -1,5 +1,3 @@
-#![allow(non_snake_case)]
-
 use std::{fs::{self, File}, io::Write};
 fn main() -> std::io::Result<()>{
     let mut paths: Vec<_> = fs::read_dir("./notes/").unwrap()

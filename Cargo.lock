@@ -3,5 +3,14 @@
 version = 3
 
 [[package]]
-name = "MDLinker"
+name = "md_linker"
 version = "0.1.0"
+dependencies = [
+ "menu",
+]
+
+[[package]]
+name = "menu"
+version = "0.3.2"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "b03d7f798bfe97329ad6df937951142eec93886b37d87010502dd25e8cc75fd5"
